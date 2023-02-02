@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background: #036125;
+    background: linear-gradient(139deg,03ddffcb 0%,#ff0381b6 90%);
+
+}
+.container{
+    position: relative;
+    max-width:  800px;
+    padding: 10px;
+    margin: 0 auto;
+
+}
+.addTask{
+    width: 100%;
+    display: flex;
+    padding: 10px 0;
+}
+.addTask>input[type="text"]{
+    width: 90%;
+    color: #036125;
+    border: none;
+    border-bottom: 2px solid #666;
+    background: none;
+    padding: 10px;
+    font-size: 22px;
+    outline: none;
+}

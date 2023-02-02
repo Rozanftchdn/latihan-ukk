@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Luas Lingkaran</h1>
+    <input type="number" id="ruas" placeholder="ruas"><br>
+    <button onclick="hitung()">Hitung</button>
+    <hr>
+    <h4 id="luas"></h4>
+    <script>
+        function hitung(){
+            let ruas = document.getElementById("ruas").value;
+            let luas = ruas*ruas*3.14
+            let hasil = document.getElementById("luas");
+
+            hasil.innerHTML="Hasil Perhitungan Luas Lingkaran : " + luas;
+        }
+    </script>
+</body>
+</html>
